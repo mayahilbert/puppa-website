@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Puppa Dog Café</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+
+    <!-- Bootstrap CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+	 <!-- Custom styles for this template -->
+	 <link rel="stylesheet" href="styles.css">
+	 
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Quicksand|Over+the+Rainbow" rel="stylesheet">
+	
+	<!-- Icons -->
+	<script src="https://use.fontawesome.com/0f2c99c868.js"></script>
+
+
+  </head>
+  
+  <body>
+	<header>
+	<div class="row">
+	<div class="container">
+	<a class="svg" href="index.html">
+	<object class="col-md-4 pull-left" type="image/svg+xml" data="images/puppa.svg">
+	<!--For browsers that do not support SVG-->
+	<img src="puppaLogo.png" alt="Puppa logo">
+	</object>
+	</a>
+	</div>
+	</div>
+	</header>
+	
+      <nav class="navbar navbar-expand-md mb-4">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Mission</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dogs.html">Our Dogs</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="getinvolved.html">Get Involved</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+	
+	<main>
+
+	<div>
+
+	<form action="thanks.html" method="get">
+
+	<div class = "container col-md-4">
+	<img class = "rounded-circle fairydog" src="images/fairy2.png" alt="fairy dog">
+	<label for="yourname">Name*</label>
+	<input type="text" name="yourname" id="yourname"
+	 placeholder=" Enter your name here." 
+	 oninvalid="this.setCustomValidity('Please enter a valid name.')" 
+	 oninput="setCustomValidity('')"
+	required 
+	> 
+
+	<label for="emailinfo">Email*</label>
+	<input type="email" name="emailinfo" id="emailinfo"
+	placeholder=" Enter your email address here." 
+	oninvalid="this.setCustomValidity('Please enter a valid e-mail address.')" 
+	oninput="setCustomValidity('')"
+	required
+	>
+
+	<label for="telephone">Phone Number</label>
+	<input type="tel" name="telephone" id="telephone"
+	 placeholder=" Enter your phone number here."
+	 pattern="\d{3}[\-]\d{3}[\-]\d{4}" 
+	 oninvalid="this.setCustomValidity('Please enter a valid US telephone number.')" 
+	oninput="setCustomValidity('')"
+	>
+
+	<label for="myComments">Ask us anything!</label>
+	<textarea id="myComments" name="myComments" placeholder=" Enter questions and comments here."></textarea>	
+		
+	<input type="submit" value="Send">
+	</div>
+</form>
+<div class="container">
+<h3 class="medium black text-center">Want to get involved? Learn how <a href="getinvolved.html">here</a>!</h3>
+<br><br>
+</div>
+</div>
+<div class="container">
+<div class="row row-centered">
+<div class="col-md-6">
+<div class="contactinfo">
+<h2 class="contact"> Email </h2>
+<p class="onblack">info@puppa.com</p> <br>
+<h2 class="contact"> Phone </h2>
+<p class="onblack">123-456-7891</p> <br>
+<h2 class="contact"> Address </h2>
+<p class="onblack">55 Lexington Ave <br>
+New York, NY 10010</p>
+</div>
+</div>
+<div class="col-md-6">
+<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d96735.77835234339!2d-74.05341442416989!3d40.74017793151287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89c259a7550271dd%3A0xec88233d3a5d270f!2sbaruch+college+google+maps!3m2!1d40.7401991!2d-73.9833745!5e0!3m2!1sen!2sus!4v1511034762765" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+	</main>
+	
+	<footer class="footer">
+      <div class="container-fluid">
+	  <div class="col-md-12 vertical-menu">
+            <a class="footer-link" href="index.html">Home</a>
+			<i class="fa fa-paw" aria-hidden="true"></i>
+            <a class="footer-link" href="about.html">Mission</a>
+			<i class="fa fa-paw" aria-hidden="true"></i>
+            <a class="footer-link" href="dogs.html">Our Dogs</a>
+			<i class="fa fa-paw" aria-hidden="true"></i>
+			<a class="footer-link" href="menu.html">Menu</a>
+			<i class="fa fa-paw" aria-hidden="true"></i>
+            <a class="footer-link" href="contact.html">Contact</a>
+			<i class="fa fa-paw" aria-hidden="true"></i>
+            <a class="footer-link" href="getinvolved.html">Get Involved</a>
+			<br>
+			© 2017 Puppa
+      </div>
+	  </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
